@@ -1,0 +1,128 @@
+body {
+  background-color: rgb(90, 89, 89);
+}
+
+.cabecalho {
+  background-color: rgb(90, 89, 89);
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+  box-shadow: 0 0 10px 0 black;
+}
+
+.logo-nome {
+  display: flex;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.nome-banco {
+  margin-top: 18px;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+.menu-lateral {
+  width: 30px;
+  margin-top: 16px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.investimentos {
+  margin-left: 42%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: aliceblue;
+}
+
+.a {
+  background-color: rgb(90, 89, 89);
+  box-shadow: 0 0 10px 0 black;
+}
+
+p {
+  color: white;
+}
+
+.etfs {
+  background-color: rgba(50, 138, 197, 0.993);
+  padding-right: 20px;
+  border-radius: 0 20px 20px 0;
+}
+
+.porquinho {
+  width: 90%;
+  margin-top: 10px;
+}
+
+.bdrs {
+  background-color: rgba(19, 179, 117, 0.993);
+  padding-right: 20px;
+  border-radius: 0 20px 20px 0;
+}
+
+.dinheiro {
+  width: 90%;
+  margin-top: 35px;
+  margin-left: 8px;
+}
+
+.cartoes {
+  margin-top: 20px;
+}
+
+.cartao {
+  width: 20%;
+}
+.opcoes-cartao {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.saldo,
+.divida,
+.emprestimo {
+  cursor: pointer;
+  box-shadow: 0 0 10px 0 black;
+}
+
+.menu-inferior {
+  background-color: rgb(90, 89, 89);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-radius: 5% 5% 0 0;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.507);
+}
+
+.home {
+  width: 15%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.lista {
+  width: 15%;
+  padding: 5px;
+  cursor: pointer;
+}
+.menu {
+  width: 15%;
+  padding: 5px;
+  cursor: pointer;
+}
+.notificacao {
+  width: 15%;
+  padding: 5px;
+  cursor: pointer;
+}
+.usuario {
+  width: 15%;
+  padding: 5px;
+  cursor: pointer;
+}
